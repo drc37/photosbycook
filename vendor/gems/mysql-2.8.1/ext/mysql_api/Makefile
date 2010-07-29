@@ -96,8 +96,8 @@ STATIC_LIB =
 
 BINDIR        = $(bindir)
 RUBYCOMMONDIR = $(sitedir)$(target_prefix)
-RUBYLIBDIR = /Users/david/github/app/vendor/gems/mysql-2.8.1/lib$(target_prefix)
-RUBYARCHDIR = /Users/david/github/app/vendor/gems/mysql-2.8.1/lib$(target_prefix)
+RUBYLIBDIR = /Users/david/Personal/photosbycookwebsite/vendor/gems/mysql-2.8.1/lib$(target_prefix)
+RUBYARCHDIR = /Users/david/Personal/photosbycookwebsite/vendor/gems/mysql-2.8.1/lib$(target_prefix)
 
 TARGET_SO     = $(DLLIB)
 CLEANLIBS     = $(TARGET).bundle $(TARGET).il? $(TARGET).tds $(TARGET).map
@@ -148,7 +148,7 @@ site-install-rb: install-rb
 .c.o:
 	$(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) -c $<
 
-$(DLLIB): $(OBJS)
+$(DLLIB): $(OBJS) Makefile
 	@-$(RM) $@
 	$(LDSHARED) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
 
