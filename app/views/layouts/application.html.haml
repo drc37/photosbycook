@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    = yield :header
+    = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"    
+    = javascript_include_tag "application"
+    = javascript_include_tag 'photosbycook'
+  
+    %link{ :href => "/images/favicon.ico", :rel => "shortcut icon" }
+    = stylesheet_link_tag "jquery-ui-1.7.2.css", 'compiled/layout.css'
+    / %title= "#{organization_name}"
+    / = render :partial => "layouts/google_analytics"
+  %body
+    .container
+      #header
+        / = render :partial => 'application/logo'
+
+      #flash
+        / = render :partial => 'layouts/flash', :locals => {:flash => flash}
+
+      #app
+        = yield
+
+

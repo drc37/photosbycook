@@ -1,0 +1,10 @@
+.js-background_image
+
+.js-left_arrow
+
+.js-right_arrow
+
+.hidden_images
+  - @images.each_with_index do |image, i|
+    .image
+      %img{ :id => i, :src => image.url, :alt => image.name }
