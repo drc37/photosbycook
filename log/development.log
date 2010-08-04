@@ -1209,3 +1209,1576 @@ ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.c
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 20:53:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 20:53:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 20:53:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:01:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:01:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:07:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:07:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:07:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:07:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:07:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:09:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:09:00) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:09:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:09:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:09:50) [GET]
+  [4;36;1mImages Load (13.7ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (22.4ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 100ms (View: 60, DB: 36) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:09:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:09:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:21:07) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:21:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:21:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:23:53) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:23:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:23:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:24:00) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:24:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:24:01) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:24:01) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:27:28) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:27:32) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:27:33) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:27:49) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:27:51) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:27:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:28:06) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:28:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:29:58) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:29:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:29:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:30:35) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:30:48) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:30:51) [GET]
+  [4;36;1mImages Load (0.4ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:30:52) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:30:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:31:14) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:31:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:31:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:32:50) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:32:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:32:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:33:19) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:33:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:33:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:33:36) [GET]
+  [4;35;1mImages Load (0.4ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:33:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:33:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:42:29) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (36.3ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 44ms (View: 4, DB: 37) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:42:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:42:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:42:47) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (209.9ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 217ms (View: 4, DB: 210) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:42:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:42:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:42:49) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (24.5ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 32ms (View: 3, DB: 25) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:42:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:42:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:47:42) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:47:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:47:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:56:17) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+
+ActionView::TemplateError (undefined method `each_with_index' for #<Images:0x103583028>) on line #8 of app/views/home/index.html.haml:
+5: .js-right_arrow
+6: 
+7: .hidden_images
+8:   - @images.each_with_index do |image, i|
+9:     %img.image{ :id => i, :src => image.url, :alt => image.name }
+
+    app/views/home/index.html.haml:8:in `_run_haml_app47views47home47index46html46haml'
+    haml (2.3.0) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.3.0) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.3.0) [v] lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (99.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:56:37) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 19ms (View: 15, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:56:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:56:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:57:05) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:57:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:57:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:57:23) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:57:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:57:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:57:39) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:57:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:58:08) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:58:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:58:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:58:35) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:58:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:58:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 21:58:51) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:58:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 21:58:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:00:11) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:00:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:00:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:00:17) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 64ms (View: 60, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:00:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:00:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:02:26) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:02:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:02:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:02:56) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:02:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:02:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:03:57) [GET]
+  [4;36;1mImages Load (0.5ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 78ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:03:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:03:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:04:05) [GET]
+  [4;35;1mImages Load (0.4ms)[0m   [0mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:04:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:04:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:05:14) [GET]
+  [4;36;1mImages Load (0.7ms)[0m   [0;1mSELECT * FROM `images` LIMIT 1[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:05:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:05:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:05:29) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:05:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:05:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:05:43) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 18ms (View: 14, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:05:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:05:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/jquery-ui-1.7.2.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:08:42) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:08:48) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:25:38) [GET]
+  [4;36;1mImages Load (0.6ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 12ms (View: 7, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:25:42) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:26:16) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:59:31) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 22:59:35) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:00:33) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 64ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:04:52) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:05:24) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:08:49) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:10:35) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:27:11) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 14ms (View: 8, DB: 3) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:27:14) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:30:06) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:30:39) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:31:06) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:31:32) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:33:02) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:33:36) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:35:16) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:36:04) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:36:11) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-03 23:36:18) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 7ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 08:04:46) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 08:05:00) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 08:08:01) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 08:20:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 08:20:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 08:20:37) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 08:21:30) [GET]
+  [4;36;1mImages Load (0.3ms)[0m   [0;1mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mImages Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 08:21:37) [GET]
+  [4;35;1mImages Load (0.3ms)[0m   [0mSELECT * FROM `images` [0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mImages Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `images`[0m
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/home]

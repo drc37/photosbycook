@@ -12,16 +12,17 @@
 				img_width = $(this).width(),
 				m_ceil = Math.ceil,
 				m_floor = Math.floor;
+      if((img_width/img_height) <= (width/height)){
+        width = m_floor(m_ceil(img_width / img_height * height));
+      } else {
+        height = m_floor(m_ceil(img_height / img_width * width));
+      }
 
-			if (img_height >= img_width) {
-				width = m_floor(m_ceil(img_width / img_height * height));
-			} else {
-				height = m_floor(m_ceil(img_height / img_width * width));
-			}
 			$(this).attr({
 				'height': height,
 				'width': width
 			});
+			
 		});
 	};
 })(jQuery);

@@ -1,9 +1,9 @@
 .js-background_image
 
 .js-left_arrow
-
+  %a{:href => "#"}
 .js-right_arrow
-
+  %a{:href => "#"}
 .hidden_images
   - @images.each_with_index do |image, i|
-    %img.image{ :id => i, :src => image.url, :alt => image.name }
+    %img.image{ :id => image.id, :src => image.url, :alt => image.name, :class => i == 0 ? "current" : nil }
