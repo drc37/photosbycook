@@ -17,7 +17,6 @@ Rails::Initializer.run do |config|
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem 'compass'
   config.gem 'haml', :lib => 'haml', :version => '>=2.2.0'
-  config.gem 'nokogiri'
   config.gem "rack", :version => '1.0.1'
   
   
