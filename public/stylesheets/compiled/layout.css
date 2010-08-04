@@ -1,32 +1,36 @@
-/* line 1, ../../../app/stylesheets/layout.sass */
+/* line 5, ../../../app/stylesheets/layout.sass */
 body {
   margin: 0px;
   padding: 0px; }
 
-/* line 5, ../../../app/stylesheets/layout.sass */
-.hidden_images {
-  display: none; }
+/* line 10, ../../../app/stylesheets/layout.sass */
+.hidden_images .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
 
-/* line 8, ../../../app/stylesheets/layout.sass */
+/* line 17, ../../../app/stylesheets/layout.sass */
 .js-background_image {
   height: 500px;
   width: 100%;
   display: block;
   background-color: gray; }
 
-/* line 15, ../../../app/stylesheets/layout.sass */
+/* line 24, ../../../app/stylesheets/layout.sass */
 .js-left_arrow, .js-right_arrow {
   width: 50%;
   height: 500px;
-  z-index: 100; }
+  z-index: 100;
+  cursor: pointer; }
 
-/* line 20, ../../../app/stylesheets/layout.sass */
+/* line 30, ../../../app/stylesheets/layout.sass */
 .js-left_arrow {
   position: absolute;
   top: 0px;
   left: 0px; }
 
-/* line 25, ../../../app/stylesheets/layout.sass */
+/* line 35, ../../../app/stylesheets/layout.sass */
 .js-right_arrow {
   position: absolute;
   top: 0px;
