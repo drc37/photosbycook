@@ -1,0 +1,43 @@
+require 'rubygems'
+require 'rake'
+require 'spec/rake/spectask'
+require 'rake/rdoctask'
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gem|
+    gem.name = "smugmugr"
+    gem.summary = %Q{smugmugr, the smugmug API wrapper}
+    gem.email = "rob.sterner@gmail.com"
+    gem.homepage = "http://github.com/fermion/smugmugr"
+    gem.authors = ["Rob Sterner"]
+    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+  end
+
+rescue LoadError
+  puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
+end
+
+desc 'Default: run unit specs.'
+task :default => :spec
+ 
+desc 'Test the smugmugr gem.'
+Spec::Rake::SpecTask.new('spec') do |t|
+  t.spec_files = FileList['spec/**/*_spec.rb']
+  t.spec_opts = ["-c"]
+end
+
+Rake::RDocTask.new do |rdoc|
+  if File.exist?('VERSION.yml')
+    config = YAML.load(File.read('VERSION.yml'))
+    version = "#{config[:major]}.#{config[:minor]}.#{config[:patch]}"
+  else
+    version = ""
+  end
+
+  rdoc.rdoc_dir = 'rdoc'
+  rdoc.title = "smugmugr #{version}"
+  rdoc.rdoc_files.include('README*')
+  rdoc.rdoc_files.include('lib/**/*.rb')
+end
+
