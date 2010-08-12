@@ -1,2 +1,11 @@
 photosbycook.tmproj
 log/**/*
+
+vendor/gems/mysql-2.8.1/ext/mysql_api/Makefile
+vendor/gems/mysql-2.8.1/ext/mysql_api/conftest.dSYM/Contents/Resources/DWARF/conftest
+vendor/gems/mysql-2.8.1/ext/mysql_api/error_const.h
+vendor/gems/mysql-2.8.1/ext/mysql_api/mkmf.log
+vendor/gems/mysql-2.8.1/ext/mysql_api/mysql.o
+vendor/gems/mysql-2.8.1/ext/mysql_api/mysql_api.bundle
+vendor/gems/mysql-2.8.1/lib/mysql_api.bundle
+

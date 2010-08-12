@@ -1,0 +1,18 @@
+production: &DEFAULTS
+  api_key: AKIAJ5R5BYQUEVRQ2WLA
+  user_name: david_cook@byu.edu
+  password: estonia1
+staging:
+  <<: *DEFAULTS
+
+demo:
+  <<: *DEFAULTS
+
+development:
+  <<: *DEFAULTS
+
+test: &TEST
+  <<: *DEFAULTS
+
+cucumber:
+  <<: *TEST
