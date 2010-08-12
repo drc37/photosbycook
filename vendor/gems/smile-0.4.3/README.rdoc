@@ -1,0 +1,68 @@
+= smile
+
+Smile is a simple gem to talk to SmugMug.com.
+This gem wraps the 1.2.0 interface.
+
+== Features
+
+=== Configure
+  Smile::Base.configure do |config|
+    config.log = Log.new( STDOUT )
+    config.logger_on = true
+    config.api_key = 'your key from smugmug'
+  end
+    
+
+  new methods
+
+  album.reload!
+  photo.reload!
+
+  Exceptions!!!!
+  Hey it shows you better exceptions now when something goes wrong from the site or lib
+
+=== Upload Images/Vids
+
+  smug = Smile.auth( 'foo@bar.com', 'pass' )
+  album = smug.albums.first
+  
+  album.add( '/path/to/image.ext' ) # => Smile::Photo (:
+
+=== Search feeds
+  Smile.search( 'blueberries' ) => [Smile::Photo] 
+  Smile.search_rss( 'bison' ) => RSS::Parser Feed
+  Smile.search_raw( 'grand' ) => Raw response from the feed
+
+=== auth accessors
+  smug = Smile.auth_anonymously
+  smug = Smile.auth( 'nick', 'pass' )
+
+
+  smug = Smile::Smug.new
+  smug.auth_anonymously
+  albums = smug.albums( :NickName => 'kleinpeter' )
+
+  album = albums.first # just test the first one
+
+  album.photos # and see the pretty pics
+
+==== Old auth accessors ( NOTE: These are still supported )
+  smug = Smile::Smug.new
+  smug.auth( 'my_nick', 'my_pass' )
+  albums = smug.albums # theses are mine
+
+  album = albums.first # just test the first one
+
+  album.photos # and see the pretty pics
+
+
+== TODO
+* Clean up params so they are not case sensitive ( Lots of cases have been handled)
+* Create better exception handlers
+* Update Documentation ( getting there.  it's being published on rdoc.info now http://rdoc.info/projects/cajun/smile )
+* Plugin in Cucumber
+
+
+== Copyright
+
+Copyright (c) 2009 cajun. See LICENSE for details.

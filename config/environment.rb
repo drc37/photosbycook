@@ -18,8 +18,12 @@ Rails::Initializer.run do |config|
   config.gem 'compass'
   config.gem 'haml', :lib => 'haml', :version => '>=2.2.0'
   config.gem "rack", :version => '1.0.1'
-
-  config.gem "smugmugr"
+  
+  config.gem "json"
+  
+  # config.gem "curb"
+  # config.gem "smugmugr"
+  config.gem "smile"
   
   config.gem "mysql"
 
