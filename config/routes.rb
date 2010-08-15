@@ -1,8 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :home, :collection => [:refresh]
 
-  map.index 'index', :controller => "home", :action => :index
-  
-  map.root :index
+  map.root :controller => "home"
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
