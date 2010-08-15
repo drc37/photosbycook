@@ -26,9 +26,12 @@ module Smile
 
       params = default_params.merge( web_options )
       params.merge!( options ) if( options )
-
-      logger.info( params.inspect )
-
+      
+      begin
+        logger.info( params.inspect )
+      rescue
+      end
+      
       json = RestClient.post( BASE, params ).body
       upper_hash_to_lower_hash(Smile::Json.parse( json ) )
     end
