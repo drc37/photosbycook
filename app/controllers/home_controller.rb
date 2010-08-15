@@ -12,4 +12,8 @@ class HomeController < ApplicationController
     end
     @images = Album.find(580).images
   end
+  
+  def refresh
+    SmugmugImporter.get_all()
+  end
 end
