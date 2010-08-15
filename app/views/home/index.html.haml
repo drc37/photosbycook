@@ -1,9 +1,21 @@
 .js-background_image
 
+
+
 .js-left_arrow
   %a{:href => "#"}
 .js-right_arrow
   %a{:href => "#"}
+.thumbnails_container 
+  .thumbnails{ :style => "width: #{150 * @images.count}px;"}
+    - @images.each_with_index do |image, i|
+      %a{ :href => "container_#{image.id}" }
+        %img.thumbnail{:id => "thumbnail_#{image.id}", :src => image.ThumbURL, :alt => image.caption || image.file_name, "image_container" => "container_#{image.id}"}
+      
 .hidden_images
   - @images.each_with_index do |image, i|
-    %img.image{ :id => image.id, :src => image.url, :alt => image.name, :class => i == 0 ? "current" : nil }
+    - if i < 5
+      .image_container{ :id => "container_#{image.id}", :class => i == 0 ? "current" : nil, :image_src => image.LargeURL, :image_width => image.width, :image_height => image.height, :image_alt => image.caption || image.file_name}
+        %img.image{ :id => image.id, :src => image.XLargeURL, :width => image.width, :height => image.height, :alt => image.caption || image.file_name}
+    - else
+      .image_container{ :id => "container_#{image.id}", :image_id => image.id, :image_src => image.XLargeURL, :image_width => image.width, :image_height => image.height, :image_alt => image.caption || image.file_name}

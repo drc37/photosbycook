@@ -31,37 +31,33 @@
   
   var movePicture = function(dir){
     current = $(".current");
+    images_container = current.parent().children();
     
+    // moving right
     if(dir>0){
       try{  
         next = current.next();
       } catch (err) {
         // start over at the beginning
-        next = current.parent().children().first();
+        next = images_container.first();
       }
       if(next.size() == 0){
-        next = current.parent().children().first();
+        next = images_container.first();
       }
+    // moving left
     } else {
       try{
         next = current.prev();
-      } catch (err) {
-        // start over at the end
-        next = current.parent().children().last();
-      }
-      if(next.size() == 0){
-        next = current.parent().children().last();
+      } catch (err) {                 
+        // start over at the end      
+        next = images_container.last();
+      }                               
+      if(next.size() == 0){           
+        next = images_container.last();
       }
     }
     
-    var timing = 500;
-    // hide current
-    current.animate({opacity: 0}, {queue:false, duration:timing});
-    // show next
-    next.animate({opacity: 1}, {queue:false, duration:timing});
-    current.removeClass("current");
-    next.addClass("current");
-console.log(next);    
+    showImage(next);
   };
   
   var moveLeft = function(e){
@@ -72,6 +68,75 @@ console.log(next);
   var moveRight = function(e){
     e.preventDefault();
     movePicture(1);
+  };
+  
+  // Loop through 3 prior and 3 ahead and build image tags for those missing theirs
+  var buildSurroundingImageTags = function(img_container){
+    var pos = getCurrentPosition(img_container);
+    
+    var start_pos = pos - 3;
+    if(start_pos < 0){
+      start_pos = 0;
+    }
+    
+    var end_pos = pos + 3;
+    if(end_pos > (img_container.parent().children().size() - 1)){
+      end_pos = img_container.parent().children().size() - 1;
+    }
+    for (var i = start_pos; i <= end_pos; i++){
+      buildImage(img_container.parent().children()[i]);
+    };
+    
+    resizeImages();
+  };
+  
+  var buildImage = function(img_container){
+    if ($(img_container).html() == ""){ 
+      var src = $(img_container).attr("image_src"),
+        alt = $(img_container).attr("image_alt"),
+        width = $(img_container).attr("image_width"),
+        height = $(img_container).attr("image_height"),
+        id = $(img_container).attr("image_id");
+
+     
+      $(img_container).html("<img id='" + id + "' class='image' src='" + src + "' alt='" + alt + "'  width=" + width + "  height=" + height + " />");
+    }
+  };
+  
+  // loops through all items under parent and find this element and return element location
+  var getCurrentPosition = function(element){
+    siblings = $(element).parent().children();
+    count = 0;
+    for( var i = 0; i <= (siblings.size()-1); i++){
+      if($(siblings[i]).attr("id") == $(element).attr("id")){
+        break;
+      }
+      count ++;
+    };
+    return count;
+  };
+  
+  var showImage = function(new_image_container){
+    current = $(".current");
+    var timing = 500;
+    
+    // hide current
+    current.animate({opacity: 0}, {queue:false, duration:timing});
+    // show next
+    new_image_container.animate({opacity: 1}, {queue:false, duration:timing});
+    
+    current.removeClass("current");
+
+    buildSurroundingImageTags(new_image_container);
+
+    new_image_container.addClass("current");
+  };
+  
+  var thumbnailClicked = function(e){
+    e.preventDefault();
+    
+    new_image = $("#" + $(this).attr("href"));
+    showImage(new_image);
   };
   
   var bootstrap = function() {
@@ -104,6 +169,25 @@ console.log(next);
             movePicture(1);;
          	return false;
          }
+    });
+    
+    $(".thumbnails_container .thumbnails a").live("click", thumbnailClicked);
+    
+    $(".thumbnails_container").jScrollHorizontalPane({
+        scrollbarHeight: 56,
+        scrollbarMargin: 0,
+        wheelSpeed: 18,
+        showArrows: true,
+        arrowSize: 25,
+        animateTo: true,
+        dragMinWidth: 1,
+        dragMaxWidth: 99999,
+        animateInterval: 100,
+        animateStep: 3,
+        maintainPosition: false,
+        resize: true,
+        minimumWidth: 200,
+        reset: false
     });
   };
   

@@ -4,39 +4,67 @@ body {
   padding: 0px;
   background-color: gray; }
 
-/* line 11, ../../../app/stylesheets/layout.sass */
-.hidden_images .image {
+/* line 10, ../../../app/stylesheets/layout.sass */
+a {
+  border: 0px; }
+
+/* line 13, ../../../app/stylesheets/layout.sass */
+.thumbnails_container {
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 165px;
+  z-index: 199; }
+  /* line 22, ../../../app/stylesheets/layout.sass */
+  .thumbnails_container .thumbnails {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 200; }
+    /* line 28, ../../../app/stylesheets/layout.sass */
+    .thumbnails_container .thumbnails a {
+      border: 0px; }
+    /* line 30, ../../../app/stylesheets/layout.sass */
+    .thumbnails_container .thumbnails .thumbnail {
+      display: inline;
+      float: left;
+      border: 0px; }
+
+/* line 36, ../../../app/stylesheets/layout.sass */
+.hidden_images .image_container .image {
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 1;
   margin: auto; }
-  /* line 18, ../../../app/stylesheets/layout.sass */
-  .hidden_images .image.current {
-    opacity: 1; }
+/* line 45, ../../../app/stylesheets/layout.sass */
+.hidden_images .image_container.current .image {
+  opacity: 1; }
 
-/* line 21, ../../../app/stylesheets/layout.sass */
+/* line 48, ../../../app/stylesheets/layout.sass */
 .js-background_image {
   height: 500px;
   width: 100%;
   display: block;
   background-color: gray; }
 
-/* line 28, ../../../app/stylesheets/layout.sass */
+/* line 55, ../../../app/stylesheets/layout.sass */
 .js-left_arrow, .js-right_arrow {
   width: 50%;
   height: 500px;
   z-index: 100;
   cursor: pointer; }
 
-/* line 34, ../../../app/stylesheets/layout.sass */
+/* line 61, ../../../app/stylesheets/layout.sass */
 .js-left_arrow {
   position: absolute;
   top: 0px;
   left: 0px; }
 
-/* line 39, ../../../app/stylesheets/layout.sass */
+/* line 66, ../../../app/stylesheets/layout.sass */
 .js-right_arrow {
   position: absolute;
   top: 0px;

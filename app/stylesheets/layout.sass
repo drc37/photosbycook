@@ -6,17 +6,44 @@ body
   margin: 0px
   padding: 0px
   background-color: gray
+
+a
+  border: 0px
+
+.thumbnails_container
+  width: 100%
+  overflow: auto
+  position: absolute
+  top: 0px
+  left: 0px
+  height: 165px
+  z-index: 199
   
-.hidden_images
-  .image
-    +opacity(0)
+  .thumbnails
     position: absolute
-    top: 50%  
-    left: 50%
-    z-index: 1
-    margin: auto
+    top: 0px
+    left: 0px
+    z-index: 200
+
+    a
+      border: 0px  
+    .thumbnail
+      display: inline
+      float: left
+      border: 0px
+.hidden_images
+  .image_container  
+    .image
+      +opacity(0)
+      position: absolute
+      top: 50%  
+      left: 50%
+      z-index: 1
+      margin: auto
+  
     &.current
-      +opacity(1)
+      .image
+        +opacity(1)
   
 .js-background_image
   height: 500px

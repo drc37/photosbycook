@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   
   def index
-    @images = Images.all
+    @images = Album.find(580).images
   end
 end
