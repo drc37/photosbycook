@@ -2,6 +2,7 @@ class SmugmugImporter
   class << self
     def get_smugmug_connection
       smug_settings = YAML.load_file(Rails.root.join("config", "smugmug.yml"))[Rails.env]
+      p "#{smug_settings["user_name"]} - #{smug_settings["password"]}"
       Smile.auth(smug_settings["user_name"], smug_settings["password"])
     end
     
