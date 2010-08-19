@@ -1,16 +1,46 @@
 .js-background_image
 
-
-
+.header
+  .logo
+    %a{ :href => "/"}
+      %img{ :src => "images/dc_logo.png"}
+  .menu
+    .menu_item
+      %a{ :href => "#"}
+        Family
+    .menu_item
+      %a{ :href => "#"}
+        Children
+    .menu_item
+      %a{ :href => "#"}
+        Seniors
+    .menu_item
+      %a{ :href => "#"}
+        Corporate
+    .menu_item
+      %a{ :href => "#"}
+        Wedding
+    .menu_item
+      %a{ :href => "#"}
+        Pricing
+    .menu_item
+      %a{ :href => "#"}
+        Contact
 .js-left_arrow
   %a{:href => "#"}
 .js-right_arrow
   %a{:href => "#"}
-.thumbnails_container 
-  .thumbnails{ :style => "width: #{150 * @images.count}px;"}
-    - @images.each_with_index do |image, i|
-      %a{ :href => "container_#{image.id}" }
-        %img.thumbnail{:id => "thumbnail_#{image.id}", :src => image.ThumbURL, :alt => image.caption || image.file_name, "image_container" => "container_#{image.id}"}
+
+.info.bottom 
+  %h1
+    &copy David Cook
+.thumbnails_hover_panel  
+.thumbnails_background
+  .thumbnails_container 
+    .thumbnails{ :style => "width: #{120 * @images.count}px;"}
+      - @images.each_with_index do |image, i|
+        %a{ :href => "container_#{image.id}" }
+          %img.thumbnail{:id => "thumbnail_#{image.id}", :src => image.TinyURL, :alt => image.caption || image.file_name, "image_container" => "container_#{image.id}"}
       
 .hidden_images
   - @images.each_with_index do |image, i|

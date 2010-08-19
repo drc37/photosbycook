@@ -1,16 +1,16 @@
 class HomeController < ApplicationController
   
   def index
-    gallery_name = params[:name]
+    gallery_name = params[:id]
     images = []
     if gallery_name
-      Album.find_by_name(gallery_name).images
+      images = Album.find_by_s_album_id(gallery_name.to_i).images
     end
     
-    unless images
-      Album.find_by_s_album_id(13167169).images
+    unless gallery_name
+      images = Album.find_by_s_album_id(6492555).images
     end
-    @images = Album.find(580).images
+    @images = images
   end
   
   def refresh

@@ -139,6 +139,19 @@
     showImage(new_image);
   };
   
+  var openThumbnails = function(e){
+    e.preventDefault();
+    
+    // $(".thumbnails_container").animate({ height:'165px' }, {queue:false, duration:350});
+    $(".thumbnails_background").fadeIn();
+  };
+  
+  var hideThumbnails = function(e){
+    e.preventDefault();
+    
+    $(".thumbnails_background").fadeOut();
+  };
+  
   var bootstrap = function() {
     $(".js-left_arrow").live("click", moveLeft);
     $(".js-right_arrow").live("click", moveRight);
@@ -173,22 +186,25 @@
     
     $(".thumbnails_container .thumbnails a").live("click", thumbnailClicked);
     
-    $(".thumbnails_container").jScrollHorizontalPane({
-        scrollbarHeight: 56,
-        scrollbarMargin: 0,
-        wheelSpeed: 18,
-        showArrows: true,
-        arrowSize: 25,
-        animateTo: true,
-        dragMinWidth: 1,
-        dragMaxWidth: 99999,
-        animateInterval: 100,
-        animateStep: 3,
-        maintainPosition: false,
-        resize: true,
-        minimumWidth: 200,
-        reset: false
-    });
+    // $(".thumbnails_container").jScrollHorizontalPane({
+    //     scrollbarHeight: 56,
+    //     scrollbarMargin: 0,
+    //     wheelSpeed: 18,
+    //     showArrows: true,
+    //     arrowSize: 25,
+    //     animateTo: true,
+    //     dragMinWidth: 1,
+    //     dragMaxWidth: 99999,
+    //     animateInterval: 100,
+    //     animateStep: 3,
+    //     maintainPosition: false,
+    //     resize: true,
+    //     minimumWidth: 200,
+    //     reset: false
+    // });
+    
+    $(".thumbnails_hover_panel").hover(openThumbnails);
+    $(".thumbnails_background").hover(null, hideThumbnails);
   };
   
   return {
