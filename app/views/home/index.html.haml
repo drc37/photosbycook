@@ -6,26 +6,32 @@
       %img{ :src => "/images/dc_logo1.png"}
   .menu
     .menu_item
-      %a{ :href => "#"}
+      %a{ :href => "/?id=13417128"}
+        Baby Cook
+    .menu_item
+      %a{ :href => "/?id=13202955"}
         Family
     .menu_item
-      %a{ :href => "#"}
+      %a{ :href => "/?id=13202999"}
         Children
     .menu_item
-      %a{ :href => "#"}
+      %a{ :href => "/?id=13202984"}
         Seniors
     .menu_item
-      %a{ :href => "#"}
-        Corporate
-    .menu_item
-      %a{ :href => "#"}
-        Wedding
-    .menu_item
-      %a{ :href => "#"}
-        Pricing
-    .menu_item
-      %a{ :href => "#"}
-        Contact
+      %a{ :href => "/?id=13415038"}
+        Scenic
+    / .menu_item
+    /   %a{ :href => "/id="}
+    /     Corporate
+    / .menu_item
+    /   %a{ :href => "/id="}
+    /     Wedding
+    / .menu_item
+    /   %a{ :href => "/id="}
+    /     Pricing
+    / .menu_item
+    /   %a{ :href => "/id="}
+    /     Contact
 .js-left_arrow
   %a{:href => "#"}
 .js-right_arrow
@@ -49,3 +55,8 @@
         %img.image{ :id => image.id, :src => image.XLargeURL, :width => image.width, :height => image.height, :alt => image.caption || image.file_name}
     - else
       .image_container{ :id => "container_#{image.id}", :image_id => image.id, :image_src => image.XLargeURL, :image_width => image.width, :image_height => image.height, :image_alt => image.caption || image.file_name}
+      
+/ .loading
+/   %img.c{ :src => "/images/c.gif"}
+/   %img.d{ :src => "/images/d.png"}
+/   %img.background{ :src => "/images/loading_background.png"}

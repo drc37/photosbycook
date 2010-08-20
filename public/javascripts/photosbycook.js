@@ -27,6 +27,9 @@
       $(this).css("margin-left", -$(this).width()/2)
       $(this).css("margin-top", -$(this).height()/2)
     });
+    
+    // resize scrollbar
+    $(".thumbnails_container").css("width", (new_width - 270))
   };
   
   var movePicture = function(dir){
@@ -152,7 +155,19 @@
     $(".thumbnails_background").fadeOut();
   };
   
+  var bootstrapRotation = function(){
+    // $(".loading .c").rotateAnimation(-25);
+    for (var i = 0; i <= 360; i++){
+      $(".loading .c").rotateAnimation(i);
+      if(i > 359){
+        i = 0;
+      }
+    };
+  };
+  
   var bootstrap = function() {
+    // bootstrapRotation();
+    
     $(".js-left_arrow").live("click", moveLeft);
     $(".js-right_arrow").live("click", moveRight);
     

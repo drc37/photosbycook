@@ -8,7 +8,7 @@ class HomeController < ApplicationController
     end
     
     unless gallery_name
-      images = Album.find_by_s_album_id(6492555).images
+      images = Album.find_by_s_album_id(13417128).images
     end
     @images = images
   end

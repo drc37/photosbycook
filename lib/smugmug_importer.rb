@@ -2,7 +2,7 @@ class SmugmugImporter
   class << self
     def get_smugmug_connection
       smug_settings = YAML.load_file(Rails.root.join("config", "smugmug.yml"))[Rails.env]
-      p "#{smug_settings["user_name"]} - #{smug_settings["password"]}"
+      # p "#{smug_settings["user_name"]} - #{smug_settings["password"]}"
       Smile.auth(smug_settings["user_name"], smug_settings["password"])
     end
     
@@ -13,6 +13,18 @@ class SmugmugImporter
       # get_subcategories conn
       get_albums conn
       # get_photos
+    end
+    
+    def get_only_used
+      current_albums = [13417128, 13202955, 13202999, 13202984, 13415038]
+      conn = get_smugmug_connection
+      current_albums.each do |album_id|
+        result = conn.albums.find(:album_id => album_id)
+        result.first do |album|
+          # p album.album_id
+          get_album(album, conn)
+        end
+      end
     end
     
     def get_category(album)
@@ -32,28 +44,33 @@ class SmugmugImporter
       rescue
       end
     end
+    
+    def get_album(album, conn = get_smugmug_connection)
+      # record each album
+      gallery = Album.find_or_create_by_s_album_id(album.album_id)
+      gallery.update_attributes(
+        :subcategory => get_subcategory(album),
+        :category => get_category(album),
+        :title => album.title,
+        :description => album.description
+      )
+
+      get_photos(album, gallery)
+    end
   
     def get_albums(conn = get_smugmug_connection)
       conn = get_smugmug_connection
       conn.albums.each do |album|
-        # record each album
-          gallery = Album.find_or_create_by_s_album_id(album.album_id)
-          gallery.update_attributes(
-              :subcategory => get_subcategory(album),
-              :category => get_category(album),
-              :title => album.title,
-              :description => album.description
-            )
-          
-        get_photos(album, gallery)      
+        get_album(album, conn) 
       end             
     end               
                       
     def get_photos(album, gallery)
       begin
         album.photos.each do |photo|
-          image = Images.find_or_create_by_s_image_id(photo.image_id)
-      
+          # p photo.image_id
+          image = Image.find_or_create_by_s_image_id(photo.image_id)
+
           image.update_attributes(
             :width => get_attribute(photo, "width"),
             :height => get_attribute(photo, "height"),
