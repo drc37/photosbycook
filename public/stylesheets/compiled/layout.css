@@ -130,59 +130,82 @@ a {
       filter: progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=10);
       filter: progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=7); }
 
-/* line 134, ../../../app/stylesheets/layout.sass */
-.hidden_images .image_container .image {
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  margin: auto; }
-/* line 143, ../../../app/stylesheets/layout.sass */
-.hidden_images .image_container.current .image {
-  opacity: 1; }
+/* line 132, ../../../app/stylesheets/layout.sass */
+.hidden_images {
+  z-index: 1; }
+  /* line 135, ../../../app/stylesheets/layout.sass */
+  .hidden_images .image_container .image {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    margin: auto; }
+  /* line 144, ../../../app/stylesheets/layout.sass */
+  .hidden_images .image_container.current .image {
+    opacity: 1; }
 
-/* line 146, ../../../app/stylesheets/layout.sass */
+/* line 147, ../../../app/stylesheets/layout.sass */
 .js-background_image {
   height: 500px;
   width: 100%;
   display: block;
   background-color: gray; }
 
-/* line 153, ../../../app/stylesheets/layout.sass */
+/* line 154, ../../../app/stylesheets/layout.sass */
 .js-left_arrow, .js-right_arrow {
   width: 50%;
   height: 100%;
   z-index: 100;
   cursor: pointer; }
 
-/* line 159, ../../../app/stylesheets/layout.sass */
+/* line 160, ../../../app/stylesheets/layout.sass */
 .js-left_arrow {
   position: absolute;
   top: 0px;
   left: 0px; }
 
-/* line 164, ../../../app/stylesheets/layout.sass */
+/* line 165, ../../../app/stylesheets/layout.sass */
 .js-right_arrow {
   position: absolute;
   top: 0px;
   right: 0px; }
 
-/* line 169, ../../../app/stylesheets/layout.sass */
+/* line 170, ../../../app/stylesheets/layout.sass */
 .loading {
   position: absolute;
   top: 500px;
   left: 100px;
   z-index: 100; }
-  /* line 174, ../../../app/stylesheets/layout.sass */
+  /* line 175, ../../../app/stylesheets/layout.sass */
   .loading .c {
     left: 54px;
     top: -10px; }
-  /* line 177, ../../../app/stylesheets/layout.sass */
+  /* line 178, ../../../app/stylesheets/layout.sass */
   .loading .d {
     left: 18px;
     top: 16px; }
 
-/* line 181, ../../../app/stylesheets/layout.sass */
+/* line 182, ../../../app/stylesheets/layout.sass */
 .loading .c, .loading .d {
   position: absolute; }
+
+/* line 185, ../../../app/stylesheets/layout.sass */
+.text_wrapper {
+  z-index: 900;
+  width: 973px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  right: 50%;
+  margin-left: -480px; }
+  /* line 193, ../../../app/stylesheets/layout.sass */
+  .text_wrapper .text_body {
+    background: url('/images/text_background.png?1282670157') -973px 0px transparent repeat-y;
+    width: 100%;
+    padding: 110px 80px 75px; }
+  /* line 199, ../../../app/stylesheets/layout.sass */
+  .text_wrapper .text_footer {
+    background: url('/images/text_background.png?1282670157') 0 0 transparent no-repeat;
+    width: 973px;
+    height: 87px; }

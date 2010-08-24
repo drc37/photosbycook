@@ -130,6 +130,7 @@ a
       filter: progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=7)
       
 .hidden_images
+  z-index: 1
   .image_container  
     .image
       +opacity(0)
@@ -181,5 +182,22 @@ a
 .loading .c, .loading .d
   position: absolute
   
-  
+.text_wrapper
+  z-index: 900
+  width: 973px 
+  position: absolute
+  top: 0px
+  left: 50%
+  right: 50%
+  margin-left: -480px
+  .text_body
+    background= image_url("text_background.png") "-973px 0px transparent repeat-y"  
+    
+    width: 100%
+    padding: 110px 80px 75px
+    
+  .text_footer
+    background= image_url("text_background.png") "0 0 transparent no-repeat"  
+    width: 973px
+    height: 87px
   

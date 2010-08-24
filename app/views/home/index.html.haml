@@ -47,7 +47,13 @@
       - @images.each_with_index do |image, i|
         %a{ :href => "container_#{image.id}" }
           %img.thumbnail{:id => "thumbnail_#{image.id}", :src => image.TinyURL, :alt => image.caption || image.file_name, "image_container" => "container_#{image.id}"}
-      
+
+.text_wrapper
+  .text_body
+    here is some text
+  .text_footer
+  
+
 .hidden_images
   - @images.each_with_index do |image, i|
     - if i < 5
