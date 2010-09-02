@@ -144,15 +144,13 @@
   
   var openThumbnails = function(e){
     e.preventDefault();
-    
-    // $(".thumbnails_container").animate({ height:'165px' }, {queue:false, duration:350});
-    $(".thumbnails_background").fadeIn();
+    $(".thumbnails_background:hidden").fadeIn();
   };
   
   var hideThumbnails = function(e){
     e.preventDefault();
     
-    $(".thumbnails_background").fadeOut();
+    $(".thumbnails_background:visible").fadeOut();
   };
   
   var bootstrapRotation = function(){
@@ -165,8 +163,38 @@
     };
   };
   
+  var showTextWrapper = function(body, size){
+    
+    $('.text_wrapper').show().animate({opacity: '1', height: size}, {queue:false, duration: 500});
+    $('.text_wrapper .text_body').animate({opacity: '1', height: size}, {queue:false, duration: 500});
+    $('.text_wrapper .text_body').html($(body).html());
+  };
+  
+  var hideTextWrapper = function(){
+    $('.text_wrapper').animate({opacity: '0'}).hide();
+    $('.text_wrapper .text_body').html("");
+  };
+  
+  // var loadURL = function(url) {
+  //        console.log("loadURL: " + url);
+  //        $("#area").load(url);
+  // };
+  
   var bootstrap = function() {
-    // bootstrapRotation();
+    // BBQ
+    
+    
+    // Menu Items
+    $('.menu .contact').click( function(e){ 
+      
+    });
+    
+    $('.menu .contact a, .menu .pricing a').click( function(e){
+      e.preventDefault();
+// console.log("menu contact" + $(this).attr("menu_size"));
+      showTextWrapper($(this).attr("href"), $(this).attr("menu_size"));
+      
+    })
     
     $(".js-left_arrow").live("click", moveLeft);
     $(".js-right_arrow").live("click", moveRight);
@@ -201,25 +229,10 @@
     
     $(".thumbnails_container .thumbnails a").live("click", thumbnailClicked);
     
-    // $(".thumbnails_container").jScrollHorizontalPane({
-    //     scrollbarHeight: 56,
-    //     scrollbarMargin: 0,
-    //     wheelSpeed: 18,
-    //     showArrows: true,
-    //     arrowSize: 25,
-    //     animateTo: true,
-    //     dragMinWidth: 1,
-    //     dragMaxWidth: 99999,
-    //     animateInterval: 100,
-    //     animateStep: 3,
-    //     maintainPosition: false,
-    //     resize: true,
-    //     minimumWidth: 200,
-    //     reset: false
-    // });
     
-    $(".thumbnails_hover_panel").hover(openThumbnails);
-    $(".thumbnails_background").hover(null, hideThumbnails);
+    $(".show_thumbnails, .hide_thumbnails").hover(openThumbnails, hideThumbnails);
+    // $(".show_thumbnails, .show_thumbnails canvas").hover(openThumbnails);
+    // $(".thumbnails_hover_panel, .header, .menu_item").hover(openThumbnails);
   };
   
   return {

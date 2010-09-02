@@ -4,44 +4,41 @@
   .logo
     %a{ :href => "/"}
       %img{ :src => "/images/dc_logo1.png"}
-  .menu
-    .menu_item
-      %a{ :href => "/?id=13417128"}
+  .menu.show_thumbnails
+    .menu_item.baby.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13417128"}
         Baby Cook
-    .menu_item
-      %a{ :href => "/?id=13202955"}
+    .menu_item.family.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13202955"}
         Family
-    .menu_item
-      %a{ :href => "/?id=13202999"}
+    .menu_item.children.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13202999"}
         Children
-    .menu_item
-      %a{ :href => "/?id=13202984"}
+    .menu_item.seniors.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13202984"}
         Seniors
-    .menu_item
-      %a{ :href => "/?id=13415038"}
+    .menu_item.scenic.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13415038"}
         Scenic
-    / .menu_item
-    /   %a{ :href => "/id="}
-    /     Corporate
-    / .menu_item
-    /   %a{ :href => "/id="}
-    /     Wedding
-    / .menu_item
-    /   %a{ :href => "/id="}
-    /     Pricing
-    / .menu_item
-    /   %a{ :href => "/id="}
-    /     Contact
+
+    .menu_item.pricing.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=pricing", "menu_size" => "300"}
+        Pricing
+    .menu_item.contact.show_thumbnails
+      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=contact", "menu_size" => "250"}
+        Contact
 .js-left_arrow
   %a{:href => "#"}
+    %img{:src => "images/transparent.png"}
 .js-right_arrow
   %a{:href => "#"}
-
+    %img{:src => "images/transparent.png"}
 .info.bottom 
   %h1
     &copy David Cook
-.thumbnails_hover_panel  
-.thumbnails_background
+.thumbnails_hover_panel.show_thumbnails
+  %img{:src => "images/transparent.png"}
+.thumbnails_background.hide_thumbnails
   .thumbnails_container 
     .thumbnails{ :style => "width: #{120 * @images.count}px;"}
       - @images.each_with_index do |image, i|
@@ -55,14 +52,48 @@
   
 
 .hidden_images
-  - @images.each_with_index do |image, i|
-    - if i < 5
-      .image_container{ :id => "container_#{image.id}", :class => i == 0 ? "current" : nil, :image_src => image.LargeURL, :image_width => image.width, :image_height => image.height, :image_alt => image.caption || image.file_name}
-        %img.image{ :id => image.id, :src => image.XLargeURL, :width => image.width, :height => image.height, :alt => image.caption || image.file_name}
-    - else
-      .image_container{ :id => "container_#{image.id}", :image_id => image.id, :image_src => image.XLargeURL, :image_width => image.width, :image_height => image.height, :image_alt => image.caption || image.file_name}
-      
+  = render :partial => "hidden_images", :locals => {:images => @images}
+
 / .loading
 /   %img.c{ :src => "/images/c.gif"}
 /   %img.d{ :src => "/images/d.png"}
 /   %img.background{ :src => "/images/loading_background.png"}
+
+.hidden_menu_items
+  #contact_menu
+    %h2
+      Contact Me
+    
+    .email.my_cufon
+      %h3
+        %a{ :href => "mailto:david_cook@byu.edu"}
+          david_cook@byu.edu
+    .phone.my_cufon
+      %h3
+        269-370-4760
+    .instance_message.my_cufon
+      %h3
+        Chat
+      .items  
+        google: smcdrc@gmail.com
+        %br
+        yahoo: drc37@yahoo.com
+        %br
+        skype: smcdrc
+    .blog.my_cufon
+      %h3
+        %span
+          %a{ :href => "http://photosbycook.blogspot.com/", :target => "_blank"}
+            Blog
+          &nbsp;&nbsp;
+        %span
+          %a{:href => "http://twitter.com/drc37", :target => "_blank"}
+            Twitter
+          &nbsp;&nbsp;
+        %span
+          %a{:href => "http://www.linkedin.com/in/davidrcook", :target => "_blank"}
+            LinkedIn
+          &nbsp;&nbsp;  
+  #pricing_menu
+    This is the pricing menu
+    
