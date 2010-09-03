@@ -144,13 +144,13 @@
   
   var openThumbnails = function(e){
     e.preventDefault();
-    $(".thumbnails_background:hidden").fadeIn();
+    $(".thumbnails_backgroundx").css("display", "block").animate({opacity: 1}, {queue:false, duration:500});
   };
   
   var hideThumbnails = function(e){
     e.preventDefault();
     
-    $(".thumbnails_background:visible").fadeOut();
+    $(".thumbnails_background").animate({opacity: 0}, {queue:false, duration:500}).css("display", "hidden");
   };
   
   var bootstrapRotation = function(){

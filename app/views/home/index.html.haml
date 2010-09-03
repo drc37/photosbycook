@@ -4,47 +4,25 @@
   .logo
     %a{ :href => "/"}
       %img{ :src => "/images/dc_logo1.png"}
-  .menu.show_thumbnails
-    .menu_item.baby.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13417128"}
-        Baby Cook
-    .menu_item.family.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13202955"}
-        Family
-    .menu_item.children.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13202999"}
-        Children
-    .menu_item.seniors.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13202984"}
-        Seniors
-    .menu_item.scenic.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=13415038"}
-        Scenic
-
-    .menu_item.pricing.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=pricing", "menu_size" => "300"}
-        Pricing
-    .menu_item.contact.show_thumbnails
-      %a.show_thumbnails.hide_thumbnails{ :href => "#menu=contact", "menu_size" => "250"}
-        Contact
+  = render :partial => "main_menu"
+  
 .js-left_arrow
   %a{:href => "#"}
     %img{:src => "images/transparent.png"}
 .js-right_arrow
   %a{:href => "#"}
     %img{:src => "images/transparent.png"}
+    
 .info.bottom 
   %h1
     &copy David Cook
+    
 .thumbnails_hover_panel.show_thumbnails
   %img{:src => "images/transparent.png"}
 .thumbnails_background.hide_thumbnails
   .thumbnails_container 
-    .thumbnails{ :style => "width: #{120 * @images.count}px;"}
-      - @images.each_with_index do |image, i|
-        %a{ :href => "container_#{image.id}" }
-          %img.thumbnail{:id => "thumbnail_#{image.id}", :src => image.TinyURL, :alt => image.caption || image.file_name, "image_container" => "container_#{image.id}"}
-
+    = render :partial => "thumbnails", :locals => {:images => @images}
+    
 .text_wrapper
   .text_body
     here is some text
@@ -54,10 +32,11 @@
 .hidden_images
   = render :partial => "hidden_images", :locals => {:images => @images}
 
-/ .loading
-/   %img.c{ :src => "/images/c.gif"}
-/   %img.d{ :src => "/images/d.png"}
-/   %img.background{ :src => "/images/loading_background.png"}
+.loading_wrapper
+  .loading
+    %img.c{ :src => "/images/c.gif"}
+    %img.d{ :src => "/images/d.png"}
+    %img.background{ :src => "/images/loading_background.png"}
 
 .hidden_menu_items
   #contact_menu

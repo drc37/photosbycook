@@ -16,6 +16,7 @@
 /  - text_wrapper: 900
 /  
 /  - header: 1000
+/  - Loading: 2000
 / */
 
 =opacity( !value )
@@ -208,18 +209,26 @@ a
   position: absolute
   top: 0px
   right: 0px
-  
-.loading
+
+.loading_wrapper  
   position: absolute
-  top: 500px
-  left: 100px
-  z-index: 100
-  .c
-    left: 54px
-    top: -10px
-  .d
-    left: 18px
-    top: 16px
+  margin-left: 50% 
+  top: 350px
+  z-index: 2000
+  display: none
+  
+  .loading
+    margin-left: -41px
+    .background
+      width: 83px
+    .c
+      left: -15px
+      top: 0px
+      width: 60px
+    .d
+      left: -35px
+      top: 9px
+      width: 51px
   
 .loading .c, .loading .d
   position: absolute

@@ -9,3 +9,4 @@ vendor/gems/mysql-2.8.1/ext/mysql_api/mysql.o
 vendor/gems/mysql-2.8.1/ext/mysql_api/mysql_api.bundle
 vendor/gems/mysql-2.8.1/lib/mysql_api.bundle
 
+tmp/**/*

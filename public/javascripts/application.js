@@ -27,6 +27,9 @@ $(function(){
     var url = $.param.fragment();
     console.log(url);
     
+    // Get Menu from Url, if Any
+    
+    // Get Image, if any
     
   });
   

@@ -17,22 +17,23 @@
 
 
 
-/* line 25, ../../../app/stylesheets/layout.sass */
+
+/* line 26, ../../../app/stylesheets/layout.sass */
 body {
   margin: 0px;
   padding: 0px;
   background-color: gray;
   color: white; }
 
-/* line 31, ../../../app/stylesheets/layout.sass */
+/* line 32, ../../../app/stylesheets/layout.sass */
 a {
   border: 0px;
   color: white; }
-  /* line 34, ../../../app/stylesheets/layout.sass */
+  /* line 35, ../../../app/stylesheets/layout.sass */
   a:focus {
     outline: 0px; }
 
-/* line 37, ../../../app/stylesheets/layout.sass */
+/* line 38, ../../../app/stylesheets/layout.sass */
 .header {
   position: absolute;
   width: 100%;
@@ -40,18 +41,18 @@ a {
   top: 10px;
   left: 0px;
   z-index: 1000; }
-  /* line 44, ../../../app/stylesheets/layout.sass */
+  /* line 45, ../../../app/stylesheets/layout.sass */
   .header .logo {
     height: 137px;
     width: 237px;
     float: left;
     text-decoration: none;
     margin-left: 15px; }
-    /* line 51, ../../../app/stylesheets/layout.sass */
+    /* line 52, ../../../app/stylesheets/layout.sass */
     .header .logo a {
       text-decoration: none;
       border: none; }
-      /* line 55, ../../../app/stylesheets/layout.sass */
+      /* line 56, ../../../app/stylesheets/layout.sass */
       .header .logo a img {
         border: none;
         -moz-box-shadow: 2px 2px 10px #000;
@@ -60,7 +61,7 @@ a {
         filter: progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=10);
         filter: progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=10);
         filter: progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=7); }
-  /* line 63, ../../../app/stylesheets/layout.sass */
+  /* line 64, ../../../app/stylesheets/layout.sass */
   .header .menu {
     position: absolute;
     top: 0px;
@@ -68,7 +69,7 @@ a {
     width: 775px;
     height: 16px;
     float: left; }
-    /* line 70, ../../../app/stylesheets/layout.sass */
+    /* line 71, ../../../app/stylesheets/layout.sass */
     .header .menu .menu_item {
       float: left;
       height: 16px;
@@ -76,12 +77,12 @@ a {
       margin: 0px 6px;
       font-size: 1.3em;
       text-decoration: none; }
-      /* line 77, ../../../app/stylesheets/layout.sass */
+      /* line 78, ../../../app/stylesheets/layout.sass */
       .header .menu .menu_item a {
         text-decoration: none;
         border: none; }
 
-/* line 81, ../../../app/stylesheets/layout.sass */
+/* line 82, ../../../app/stylesheets/layout.sass */
 .info {
   z-index: 300;
   width: 100%;
@@ -89,23 +90,23 @@ a {
   position: absolute;
   right: 5px;
   margin: 0px; }
-  /* line 88, ../../../app/stylesheets/layout.sass */
+  /* line 89, ../../../app/stylesheets/layout.sass */
   .info.top {
     top: 0px; }
-  /* line 90, ../../../app/stylesheets/layout.sass */
+  /* line 91, ../../../app/stylesheets/layout.sass */
   .info.bottom {
     bottom: 5px;
     width: 250px; }
-  /* line 93, ../../../app/stylesheets/layout.sass */
+  /* line 94, ../../../app/stylesheets/layout.sass */
   .info h1 {
     margin: 0; }
 
-/* line 96, ../../../app/stylesheets/layout.sass */
+/* line 97, ../../../app/stylesheets/layout.sass */
 .my_cufon {
   color: white;
   z-index: 1000; }
 
-/* line 102, ../../../app/stylesheets/layout.sass */
+/* line 103, ../../../app/stylesheets/layout.sass */
 .thumbnails_hover_panel {
   height: 180px;
   z-index: 190;
@@ -114,13 +115,13 @@ a {
   position: absolute;
   top: 0px;
   left: 0px; }
-  /* line 111, ../../../app/stylesheets/layout.sass */
+  /* line 112, ../../../app/stylesheets/layout.sass */
   .thumbnails_hover_panel img {
     height: 180px;
     z-index: 190;
     width: 100%; }
 
-/* line 116, ../../../app/stylesheets/layout.sass */
+/* line 117, ../../../app/stylesheets/layout.sass */
 .thumbnails_background {
   background: url('/images/menu_background.png?1282237088') 0 0 transparent repeat-x;
   display: none;
@@ -131,7 +132,7 @@ a {
   left: 0px;
   z-index: 195; }
 
-/* line 125, ../../../app/stylesheets/layout.sass */
+/* line 126, ../../../app/stylesheets/layout.sass */
 .thumbnails_container {
   width: 1000px;
   overflow: auto;
@@ -140,16 +141,16 @@ a {
   left: 270px;
   height: 140px;
   z-index: 199; }
-  /* line 143, ../../../app/stylesheets/layout.sass */
+  /* line 144, ../../../app/stylesheets/layout.sass */
   .thumbnails_container .thumbnails {
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 200; }
-    /* line 149, ../../../app/stylesheets/layout.sass */
+    /* line 150, ../../../app/stylesheets/layout.sass */
     .thumbnails_container .thumbnails a {
       border: 0px; }
-    /* line 151, ../../../app/stylesheets/layout.sass */
+    /* line 152, ../../../app/stylesheets/layout.sass */
     .thumbnails_container .thumbnails .thumbnail {
       display: inline;
       float: left;
@@ -162,14 +163,14 @@ a {
       filter: progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=10);
       filter: progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=7); }
 
-/* line 163, ../../../app/stylesheets/layout.sass */
+/* line 164, ../../../app/stylesheets/layout.sass */
 .hidden_images {
   z-index: 1; }
-  /* line 165, ../../../app/stylesheets/layout.sass */
+  /* line 166, ../../../app/stylesheets/layout.sass */
   .hidden_images .image_container {
     filter: alpha(opacity=0);
     opacity: 0; }
-    /* line 168, ../../../app/stylesheets/layout.sass */
+    /* line 169, ../../../app/stylesheets/layout.sass */
     .hidden_images .image_container .image {
       position: absolute;
       top: 50%;
@@ -178,29 +179,29 @@ a {
       margin: auto;
       filter: alpha(opacity=0);
       opacity: 0; }
-    /* line 175, ../../../app/stylesheets/layout.sass */
+    /* line 176, ../../../app/stylesheets/layout.sass */
     .hidden_images .image_container.current {
       filter: alpha(opacity=100);
       opacity: 1; }
-      /* line 177, ../../../app/stylesheets/layout.sass */
+      /* line 178, ../../../app/stylesheets/layout.sass */
       .hidden_images .image_container.current .image {
         filter: alpha(opacity=100);
         opacity: 1; }
 
-/* line 181, ../../../app/stylesheets/layout.sass */
+/* line 182, ../../../app/stylesheets/layout.sass */
 .js-background_image {
   height: 500px;
   width: 100%;
   display: block;
   background-color: gray; }
 
-/* line 188, ../../../app/stylesheets/layout.sass */
+/* line 189, ../../../app/stylesheets/layout.sass */
 .js-left_arrow, .js-right_arrow {
   width: 50%;
   height: 100%;
   z-index: 100;
   cursor: pointer; }
-  /* line 194, ../../../app/stylesheets/layout.sass */
+  /* line 195, ../../../app/stylesheets/layout.sass */
   .js-left_arrow img, .js-right_arrow img {
     width: 100%;
     height: 100%;
@@ -209,38 +210,47 @@ a {
     margin: 0px;
     padding: 0px; }
 
-/* line 201, ../../../app/stylesheets/layout.sass */
+/* line 202, ../../../app/stylesheets/layout.sass */
 .js-left_arrow {
   position: absolute;
   top: 0px;
   left: 0px; }
 
-/* line 207, ../../../app/stylesheets/layout.sass */
+/* line 208, ../../../app/stylesheets/layout.sass */
 .js-right_arrow {
   position: absolute;
   top: 0px;
   right: 0px; }
 
-/* line 212, ../../../app/stylesheets/layout.sass */
-.loading {
+/* line 213, ../../../app/stylesheets/layout.sass */
+.loading_wrapper {
   position: absolute;
-  top: 500px;
-  left: 100px;
-  z-index: 100; }
-  /* line 217, ../../../app/stylesheets/layout.sass */
-  .loading .c {
-    left: 54px;
-    top: -10px; }
+  margin-left: 50%;
+  top: 350px;
+  z-index: 2000;
+  display: none; }
   /* line 220, ../../../app/stylesheets/layout.sass */
-  .loading .d {
-    left: 18px;
-    top: 16px; }
+  .loading_wrapper .loading {
+    margin-left: -41px; }
+    /* line 222, ../../../app/stylesheets/layout.sass */
+    .loading_wrapper .loading .background {
+      width: 83px; }
+    /* line 224, ../../../app/stylesheets/layout.sass */
+    .loading_wrapper .loading .c {
+      left: -15px;
+      top: 0px;
+      width: 60px; }
+    /* line 228, ../../../app/stylesheets/layout.sass */
+    .loading_wrapper .loading .d {
+      left: -35px;
+      top: 9px;
+      width: 51px; }
 
-/* line 224, ../../../app/stylesheets/layout.sass */
+/* line 233, ../../../app/stylesheets/layout.sass */
 .loading .c, .loading .d {
   position: absolute; }
 
-/* line 227, ../../../app/stylesheets/layout.sass */
+/* line 236, ../../../app/stylesheets/layout.sass */
 .text_wrapper {
   z-index: 900;
   width: 815px;
@@ -252,19 +262,19 @@ a {
   filter: alpha(opacity=0);
   opacity: 0;
   display: none; }
-  /* line 238, ../../../app/stylesheets/layout.sass */
+  /* line 247, ../../../app/stylesheets/layout.sass */
   .text_wrapper .text_body {
     color: white;
     background: url('/images/text_background.png?1282670157') -973px 0px transparent repeat-y;
     z-index: 1000;
     width: 100%;
     padding: 110px 80px 75px; }
-  /* line 245, ../../../app/stylesheets/layout.sass */
+  /* line 254, ../../../app/stylesheets/layout.sass */
   .text_wrapper .text_footer {
     background: url('/images/text_background.png?1282670157') 0 0 transparent no-repeat;
     width: 973px;
     height: 87px; }
 
-/* line 250, ../../../app/stylesheets/layout.sass */
+/* line 259, ../../../app/stylesheets/layout.sass */
 .hidden_menu_items {
   display: none; }

@@ -1,0 +1,4 @@
+.thumbnails{ :style => "width: #{120 * @images.count}px;"}
+  - images.each_with_index do |image, i|
+    %a{ :href => "container_#{image.id}" }
+      %img.thumbnail{:id => "thumbnail_#{image.id}", :src => image.TinyURL, :alt => image.caption || image.file_name, "image_container" => "container_#{image.id}"}
