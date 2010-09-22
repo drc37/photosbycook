@@ -164,10 +164,10 @@
   };
   
   var showTextWrapper = function(body, size){
+    $('.text_wrapper .text_body').html($(body).html()).css("height", size);
+    $('.text_wrapper').css("height", size).animate({opacity: '1'}, {queue:false, duration: 500});
     
-    $('.text_wrapper').show().animate({opacity: '1', height: size}, {queue:false, duration: 500});
-    $('.text_wrapper .text_body').animate({opacity: '1', height: size}, {queue:false, duration: 500});
-    $('.text_wrapper .text_body').html($(body).html());
+                            // .animate({opacity: '1', height: size}, {queue:false, duration: 500});
   };
   
   var hideTextWrapper = function(){
@@ -179,6 +179,12 @@
   //        console.log("loadURL: " + url);
   //        $("#area").load(url);
   // };
+  
+  var loadMenuItem = function(menu_id){
+    $(".hidden_images").load("home/images?id=" + menu_id.toString(), function(data){
+      resizeImages();
+    });
+  };
   
   var bootstrap = function() {
     // BBQ
@@ -237,6 +243,8 @@
   
   return {
     bootstrap: bootstrap,
-    resizeImages: resizeImages
+    resizeImages: resizeImages,
+    loadMenuItem: loadMenuItem,
+    showTextWrapper: showTextWrapper
   };
 }());

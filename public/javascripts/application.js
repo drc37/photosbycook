@@ -24,13 +24,21 @@ $(function(){
   $(window).bind( 'hashchange', function(e) {
     // Get the hash (fragment) as a string, with any leading # removed. Note that
     // in jQuery 1.4, you should use e.fragment instead of $.param.fragment().
-    var url = $.param.fragment();
-    console.log(url);
-    
-    // Get Menu from Url, if Any
-    
-    // Get Image, if any
-    
+    var fragment = $.param.fragment();
+
+    if(fragment.indexOf("menu") > 0){
+      menu_id = fragment.split("_")[1];
+      // Get Menu from Url, if Any
+      if(menu_id){
+        PBC.loadMenuItem(menu_id);
+      }
+    } else if(fragment.indexOf("popdown") > 0){
+      menu_id = fragment.split("=")[1];
+      if(menu_id){
+        menu_link = $(".menu .menu_item." + menu_id.toString() + " a");
+        PBC.showTextWrapper(menu_link.attr("menu_div"), menu_link.attr("menu_size"));
+      }
+    }
   });
   
   // Since the event is only triggered when the hash changes, we need to trigger
