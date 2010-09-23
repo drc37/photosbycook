@@ -25,14 +25,14 @@ $(function(){
     // Get the hash (fragment) as a string, with any leading # removed. Note that
     // in jQuery 1.4, you should use e.fragment instead of $.param.fragment().
     var fragment = $.param.fragment();
-
-    if(fragment.indexOf("menu") > 0){
+    if(fragment.indexOf("menu") >= 0){
       menu_id = fragment.split("_")[1];
       // Get Menu from Url, if Any
       if(menu_id){
         PBC.loadMenuItem(menu_id);
+        PBC.hideTextWrapper();
       }
-    } else if(fragment.indexOf("popdown") > 0){
+    } else if(fragment.indexOf("popdown") >= 0){
       menu_id = fragment.split("=")[1];
       if(menu_id){
         menu_link = $(".menu .menu_item." + menu_id.toString() + " a");
