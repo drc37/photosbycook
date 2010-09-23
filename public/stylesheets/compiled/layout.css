@@ -278,3 +278,10 @@ a {
 /* line 259, ../../../app/stylesheets/layout.sass */
 .hidden_menu_items {
   display: none; }
+
+/* line 264, ../../../app/stylesheets/layout.sass */
+#contact_menu .instance_message h3 {
+  margin-bottom: 2px; }
+/* line 267, ../../../app/stylesheets/layout.sass */
+#contact_menu .blog span {
+  margin-right: 20px; }
