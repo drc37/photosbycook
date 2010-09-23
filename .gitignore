@@ -1,6 +1,6 @@
 photosbycook.tmproj
 log/**/*
-
+log/*
 vendor/gems/mysql-2.8.1/ext/mysql_api/Makefile
 vendor/gems/mysql-2.8.1/ext/mysql_api/conftest.dSYM/Contents/Resources/DWARF/conftest
 vendor/gems/mysql-2.8.1/ext/mysql_api/error_const.h
